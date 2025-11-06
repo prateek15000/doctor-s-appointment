@@ -29,7 +29,7 @@ function DoctorSelectionStep({
 
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-semibold">Choose Your Dentist</h2>
+      <h2 className="text-2xl font-semibold">Choose Your Doctor</h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {dentists.map((dentist) => (
