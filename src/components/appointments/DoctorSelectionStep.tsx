@@ -22,7 +22,7 @@ function DoctorSelectionStep({
   if (isLoading)
     return (
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold">Choose Your Dentist</h2>
+        <h2 className="text-2xl font-semibold">Choose Your Doctor</h2>
         <DoctorCardsLoading />
       </div>
     );
