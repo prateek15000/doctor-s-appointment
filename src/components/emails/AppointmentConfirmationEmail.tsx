@@ -45,12 +45,12 @@ function AppointmentConfirmationEmail({
             <Text style={logoText}>DentWise</Text>
           </Section>
 
-          <Heading style={h1}>Appointment Confirmed! 🦷</Heading>
+          <Heading style={h1}>Appointment Confirmed! </Heading>
 
           <Text style={text}>Hi there,</Text>
 
           <Text style={text}>
-            Your dental appointment has been successfully booked. Here are the details:
+            Your doctor's appointment has been successfully booked. Here are the details:
           </Text>
 
           <Section style={appointmentDetails}>
@@ -73,7 +73,7 @@ function AppointmentConfirmationEmail({
             <Text style={detailValue}>{price}</Text>
 
             <Text style={detailLabel}>Location</Text>
-            <Text style={detailValue}>Dental Center</Text>
+            <Text style={detailValue}>Doctor's Clinic</Text>
           </Section>
 
           <Text style={text}>
