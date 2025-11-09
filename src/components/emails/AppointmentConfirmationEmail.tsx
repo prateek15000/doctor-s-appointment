@@ -39,10 +39,10 @@ function AppointmentConfirmationEmail({
               src="https://i.ibb.co.com/tRy6cC2/logo.png"
               width="50"
               height="50"
-              alt="MedWise"
+              alt="DentWise"
               style={logo}
             />
-            <Text style={logoText}>MedWise</Text>
+            <Text style={logoText}>DentWise</Text>
           </Section>
 
           <Heading style={h1}>Appointment Confirmed! </Heading>
@@ -73,7 +73,7 @@ function AppointmentConfirmationEmail({
             <Text style={detailValue}>{price}</Text>
 
             <Text style={detailLabel}>Location</Text>
-            <Text style={detailValue}>Doctor's Clinic</Text>
+            <Text style={detailValue}>clinic Center</Text>
           </Section>
 
           <Text style={text}>
@@ -205,3 +205,4 @@ const footerText = {
   margin: "16px 0 0 0",
   textAlign: "center" as const,
 };
+
