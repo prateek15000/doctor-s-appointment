@@ -51,7 +51,7 @@ function HowItWorks() {
               <h3 className="text-2xl font-bold mb-4 text-center">Ask Questions</h3>
               <p className="text-muted-foreground text-center leading-relaxed mb-6">
                 Chat with our AI assistant about any health care concerns. Get instant answers about
-                symptoms, treatments, and all health care tips.
+                symptoms, treatments, and  health care tips.
               </p>
 
               {/* Feature Pills */}
