@@ -17,12 +17,12 @@ function WhatToAsk() {
             </span>
             <br />
             <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-              anything dental
+              anything health
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             From simple questions to complex concerns, our AI delivers expert-level guidance trained
-            on thousands of real dental cases
+            on thousands of real health cases
           </p>
         </div>
 
@@ -105,22 +105,25 @@ function WhatToAsk() {
                     </div>
                     <div className="space-y-3 flex-1">
                       <div className="bg-primary/5 rounded-2xl p-4 border border-primary/10">
-                        <p className="font-semibold text-primary">
-                          "When should I replace my filling?"
-                        </p>
-                      </div>
-                      <div className="bg-muted/30 rounded-2xl p-4">
-                        <p className="text-sm text-muted-foreground leading-relaxed">
-                          Learn about filling lifespan, warning signs of wear, and replacement
-                          timing guidance
-                        </p>
-                        <div className="flex gap-2 mt-3">
-                          <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">
-                            Preventive Care
-                          </span>
-                          <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">
-                            Maintenance
-                          </span>
+                      <p className="font-semibold text-primary">
+  "What is the cost of LASIK eye surgery?"
+</p>
+</div>
+<div className="bg-muted/30 rounded-2xl p-4">
+  <p className="text-sm text-muted-foreground leading-relaxed">
+    Learn about average pricing, factors that affect cost, and typical recovery
+    expectations for LASIK treatment.
+  </p>
+  <div className="flex gap-2 mt-3">
+    <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">
+      Preventive Care
+    </span>
+    <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">
+      Maintenance
+    </span>
+  </div>
+</div>
+
                         </div>
                       </div>
                     </div>
