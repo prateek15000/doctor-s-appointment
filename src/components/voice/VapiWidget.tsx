@@ -108,10 +108,10 @@ function VapiWidget() {
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold font-mono">
           <span>Talk to Your </span>
-          <span className="text-primary uppercase">AI Dental Assistant</span>
+          <span className="text-primary uppercase">AI Health care Assistant</span>
         </h1>
         <p className="text-muted-foreground mt-2">
-          Have a voice conversation with our AI assistant for dental advice and guidance
+          Have a voice conversation with our AI assistant for health care advice and guidance
         </p>
       </div>
 
@@ -165,8 +165,8 @@ function VapiWidget() {
               </div>
             </div>
 
-            <h2 className="text-xl font-bold text-foreground">DentWise AI</h2>
-            <p className="text-sm text-muted-foreground mt-1">Dental Assistant</p>
+            <h2 className="text-xl font-bold text-foreground">MedWise AI</h2>
+            <p className="text-sm text-muted-foreground mt-1">Health Care Assistant</p>
 
             {/* SPEAKING INDICATOR */}
             <div
@@ -240,7 +240,7 @@ function VapiWidget() {
             {callEnded && (
               <div className="message-item animate-in fade-in duration-300">
                 <div className="font-semibold text-xs text-primary mb-1">System:</div>
-                <p className="text-foreground">Call ended. Thank you for using DentWise AI!</p>
+                <p className="text-foreground">Call ended. Thank you for using MedWise AI!</p>
               </div>
             )}
           </div>
