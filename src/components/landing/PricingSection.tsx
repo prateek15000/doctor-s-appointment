@@ -176,7 +176,7 @@ function PricingSection() {
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircleIcon className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-sm">Detailed health reports</span>
+                    <span className="text-sm">Detailed health care reports</span>
                   </div>
                 </div>
               </div>
