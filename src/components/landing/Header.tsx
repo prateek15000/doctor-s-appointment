@@ -27,7 +27,7 @@ function Header() {
         <div className="flex items-center gap-3">
           <SignInButton mode="modal">
             <Button variant={"ghost"} size={"sm"}>
-              Login
+              Login 
             </Button>
           </SignInButton>
           <SignUpButton mode="modal">
