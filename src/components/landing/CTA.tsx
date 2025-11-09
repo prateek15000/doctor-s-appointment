@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { MicIcon, CalendarIcon } from "lucide-react";
+import newim from "../../../public/ChatGPT Image Nov 9, 2025, 11_38_28 PM.png";
 
 function CTA() {
   return (
@@ -70,7 +71,7 @@ function CTA() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl blur-xl scale-110"></div>
 
                 <Image
-                  src="/cta.png"
+                  src={newim}
                   alt="DentWise AI Assistant"
                   width={300}
                   height={300}
@@ -89,3 +90,4 @@ function CTA() {
   );
 }
 export default CTA;
+
