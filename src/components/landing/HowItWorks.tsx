@@ -19,7 +19,7 @@ function HowItWorks() {
           </span>
           <br />
           <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            better health
+            better health care
           </span>
         </h2>
 
@@ -50,8 +50,8 @@ function HowItWorks() {
 
               <h3 className="text-2xl font-bold mb-4 text-center">Ask Questions</h3>
               <p className="text-muted-foreground text-center leading-relaxed mb-6">
-                Chat with our AI assistant about any health concerns. Get instant answers about
-                symptoms, treatments, and all health tips.
+                Chat with our AI assistant about any health care concerns. Get instant answers about
+                symptoms, treatments, and all health care tips.
               </p>
 
               {/* Feature Pills */}
@@ -81,7 +81,7 @@ function HowItWorks() {
 
               <h3 className="text-2xl font-bold mb-4 text-center">Get Expert Advice</h3>
               <p className="text-muted-foreground text-center leading-relaxed mb-6">
-                Receive personalized recommendations based on thousands of health cases. Our AI
+                Receive personalized recommendations based on thousands of health care cases. Our AI
                 provides professional-grade insights.
               </p>
 
