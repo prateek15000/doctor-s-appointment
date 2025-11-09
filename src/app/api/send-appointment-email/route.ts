@@ -1,8 +1,8 @@
 import AppointmentConfirmationEmail from "@/components/emails/AppointmentConfirmationEmail";
-import resend from "@/lib/resend";
+import { resend } from "@/lib/resend";
 import { NextResponse } from "next/server";
 
-export async function POST(request: Request) {
+export async function POST(request) {
   try {
     const body = await request.json();
 
@@ -16,13 +16,10 @@ export async function POST(request: Request) {
       price,
     } = body;
 
-    // validate required fields
     if (!userEmail || !doctorName || !appointmentDate || !appointmentTime) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    // send the email
-    // do not use this in prod, only for testing purposes
     const { data, error } = await resend.emails.send({
       from: "DentWise <no-reply@resend.dev>",
       to: [userEmail],
@@ -46,6 +43,7 @@ export async function POST(request: Request) {
       { message: "Email sent successfully", emailId: data?.id },
       { status: 200 }
     );
+
   } catch (error) {
     console.error("Email sending error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
