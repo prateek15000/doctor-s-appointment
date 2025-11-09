@@ -1,4 +1,4 @@
-<h1 align="center">🦷 Dentwise – Doctor's appointment Platform with AI Voice Agent 🦷</h1>
+<h1 align="center">Dentwise – Doctor's appointment Platform with AI Voice Agent </h1>
 
 
 
