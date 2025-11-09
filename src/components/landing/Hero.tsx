@@ -37,7 +37,7 @@ function Hero() {
                 {/* MAIN HEADING */}
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
                   <span className="bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-transparent">
-                    Your health
+                    Your health care
                   </span>
                   <br />
                   <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
@@ -117,7 +117,7 @@ function Hero() {
     width={600}
     height={600}
     
-    className="w-full h-full object-cover opacity-70"
+    className="w-full h-full object-cover opacity-80"
   />
 </div>
 
@@ -130,3 +130,4 @@ function Hero() {
 }
 
 export default Hero;
+
