@@ -19,12 +19,12 @@ function HowItWorks() {
           </span>
           <br />
           <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            better dental health
+            better health
           </span>
         </h2>
 
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Our streamlined process makes dental care accessible, convenient, and stress-free for
+          Our streamlined process makes health care accessible, convenient, and stress-free for
           everyone
         </p>
       </div>
@@ -50,8 +50,8 @@ function HowItWorks() {
 
               <h3 className="text-2xl font-bold mb-4 text-center">Ask Questions</h3>
               <p className="text-muted-foreground text-center leading-relaxed mb-6">
-                Chat with our AI assistant about any dental concerns. Get instant answers about
-                symptoms, treatments, and oral health tips.
+                Chat with our AI assistant about any health concerns. Get instant answers about
+                symptoms, treatments, and all health tips.
               </p>
 
               {/* Feature Pills */}
@@ -81,7 +81,7 @@ function HowItWorks() {
 
               <h3 className="text-2xl font-bold mb-4 text-center">Get Expert Advice</h3>
               <p className="text-muted-foreground text-center leading-relaxed mb-6">
-                Receive personalized recommendations based on thousands of dental cases. Our AI
+                Receive personalized recommendations based on thousands of health cases. Our AI
                 provides professional-grade insights.
               </p>
 
@@ -112,7 +112,7 @@ function HowItWorks() {
 
               <h3 className="text-2xl font-bold mb-4 text-center">Book & Get Care</h3>
               <p className="text-muted-foreground text-center leading-relaxed mb-6">
-                Schedule with verified dentists and receive comprehensive follow-up care. Track your
+                Schedule with verified doctors and receive comprehensive follow-up care. Track your
                 progress seamlessly.
               </p>
 
