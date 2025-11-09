@@ -52,7 +52,7 @@ function Hero() {
                 {/* SUBTITLE */}
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-xl font-medium">
                   Chat with our AI doctor assistant for instant medical guidance,
-                  book smart consultations, and get personalized health recommendations.
+                  book smart consultations, and get personalized health care recommendations.
                   Available 24/7.
                 </p>
               </div>
