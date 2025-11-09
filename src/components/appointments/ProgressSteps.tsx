@@ -7,7 +7,7 @@ function ProgressSteps({ currentStep }: { currentStep: number }) {
     <div className="flex items-center gap-4 mb-8">
       {PROGRESS_STEPS.map((stepName, index) => {
         const stepNumber = index + 1;
-        const isActive = currentStep >= stepNumber;
+        const isActive = currentStep >= stepNumber; 
 
         return (
           <div key={stepNumber} className="flex items-center gap-2">
