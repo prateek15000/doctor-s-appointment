@@ -42,7 +42,7 @@ function AppointmentConfirmationEmail({
               alt="DentWise"
               style={logo}
             />
-            <Text style={logoText}>DentWise</Text>
+            <Text style={logoText}>MedWise</Text>
           </Section>
 
           <Heading style={h1}>Appointment Confirmed! </Heading>
@@ -90,11 +90,11 @@ function AppointmentConfirmationEmail({
           <Text style={footer}>
             Best regards,
             <br />
-            The DentWise Team
+            The MedWise Team
           </Text>
 
           <Text style={footerText}>
-            If you have any questions, please contact us at support@dentwise.com
+            If you have any questions, please contact us at support@medwise.com
           </Text>
         </Container>
       </Body>
