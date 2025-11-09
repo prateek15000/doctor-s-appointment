@@ -60,7 +60,7 @@ export default function MainActions() {
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-2">Book Appointment</h3>
-              <p className="text-muted-foreground">Schedule with verified dentists in your area</p>
+              <p className="text-muted-foreground">Schedule with verified doctors in your area</p>
             </div>
           </div>
 
