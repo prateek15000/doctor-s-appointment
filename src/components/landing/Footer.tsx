@@ -17,7 +17,7 @@ function Footer() {
               <span className="font-semibold text-lg">MedWise</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              AI-powered health care assistance that actually helps.
+              AI-powered doctor assistance that actually helps.
             </p>
           </div>
 
@@ -93,3 +93,4 @@ function Footer() {
   );
 }
 export default Footer;
+
