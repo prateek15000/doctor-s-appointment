@@ -31,7 +31,7 @@ function AppointmentConfirmationEmail({
   return (
     <Html>
       <Head />
-      <Preview>Your dental appointment has been confirmed</Preview>
+      <Preview>Your doctor's appointment has been confirmed</Preview>
       <Body style={main}>
         <Container style={container}>
           <Section style={logoContainer}>
@@ -39,10 +39,10 @@ function AppointmentConfirmationEmail({
               src="https://i.ibb.co.com/tRy6cC2/logo.png"
               width="50"
               height="50"
-              alt="DentWise"
+              alt="MedWise"
               style={logo}
             />
-            <Text style={logoText}>DentWise</Text>
+            <Text style={logoText}>MedWise</Text>
           </Section>
 
           <Heading style={h1}>Appointment Confirmed! </Heading>
