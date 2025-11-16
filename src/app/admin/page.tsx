@@ -17,4 +17,4 @@ async function AdminPage() {
   return <AdminDashboardClient />;
 }
 
-export default AdminPage;
+export default AdminPage; 
