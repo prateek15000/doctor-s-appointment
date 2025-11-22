@@ -8,7 +8,7 @@ Highlights:
 - 🔐 Authentication via Clerk (Google, GitHub, Email & Password)
 - 🔑 Email Verification (6-digit code)
 - 📅 Appointment Booking System
-- 🦷 3-Step Booking Flow (Dentist → Service & Time → Confirm)
+- 🦷 3-Step Booking Flow (Doctor → Service & Time → Confirm)
 - 📩 Email Notifications for Bookings (Resend)
 - 📊 Admin Dashboard for Managing Appointments
 - 🗣️ AI Voice Agent powered by Vapi (Pro Plans only)
